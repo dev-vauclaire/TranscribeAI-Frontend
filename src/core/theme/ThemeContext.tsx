@@ -1,4 +1,5 @@
-import { createContext, useMemo, useState, useContext, ReactNode } from 'react';
+import { createContext, useMemo, useState, useContext } from 'react';
+import type { ReactNode } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 
 import lightPalette from './LightPalette';

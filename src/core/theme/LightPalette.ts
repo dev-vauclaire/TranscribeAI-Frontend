@@ -34,10 +34,6 @@ const lightPalette = createTheme({
     h1: { fontSize: '2.5rem', fontWeight: 600, color: '#010440' },
     button: { textTransform: 'none' }, // Désactive les majuscules automatiques
   },
-  disabled: {
-    main: '#a3a3a3',
-    contrastText: '#ffffff',
-  },
   shape: {
     borderRadius: 8, // Arrondi global des boutons et cartes
   },
