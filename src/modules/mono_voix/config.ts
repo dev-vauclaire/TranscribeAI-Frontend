@@ -1,5 +1,5 @@
-import {BatchTranscriptionEnv} from '../../core/config/env.ts'
-import {BaseEnv} from '../../core/config/env.ts'
+import {BatchTranscriptionEnv} from '../../core/config/generate_env.ts'
+import {BaseEnv} from '../../core/config/generate_env.ts'
 
 export const MAXTIMEPROCESSING = Number(BatchTranscriptionEnv.MAX_TIME_PROCESSING) || 3000000;
 export const TIMEBETTWENEACHPOLLING = Number(BatchTranscriptionEnv.TIME_BETWEEN_EACH_POLLING) || 3000;

@@ -1,5 +1,5 @@
-import {DiarizationEnv} from '../../core/config/env.ts'
-import {BaseEnv} from '../../core/config/env.ts'
+import {DiarizationEnv} from '../../core/config/generate_env.ts'
+import {BaseEnv} from '../../core/config/generate_env.ts'
 
 export const MAXTIMEPROCESSING = Number(DiarizationEnv.MAX_TIME_PROCESSING) || 3000000; // En millisecondes
 export const TIMEBETTWENEACHPOLLING = Number(DiarizationEnv.TIME_BETWEEN_EACH_POLLING) || 3000; // En millisecondes
