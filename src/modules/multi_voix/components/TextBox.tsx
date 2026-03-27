@@ -15,7 +15,7 @@ interface TextBoxProps {
 }
 
 export default function TextBox({ diarizationData, currentTime, gotoTimestamp, handleManualEdit, onDelete }: TextBoxProps) {
-  const activeSegmentRef = useRef<HTMLSpanElement>(null);
+  const activeSegmentRef = useRef<HTMLSpanElement>(null!);
 
   // 2. Scroll automatique vers le segment actif
   useEffect(() => {
