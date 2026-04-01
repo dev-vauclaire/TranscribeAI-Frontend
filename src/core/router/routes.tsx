@@ -9,8 +9,8 @@ import type { Module } from '../../shared/types/module.type.ts';
 export const MODULE_ROUTES: Module[] = [
     {
     id: 'streaming',
-    title: "Dictée vocale",
-    description: "Transcrivez l'audio en direct avec une latence minimale pour une expérience fluide.",
+    title: "Temps réel",
+    description: "Transcrivez l'audio en direct avec une latence minimale.",
     icon: [<RecordVoiceOverIcon />],
     path: "streaming",
     fullPath: "/app/streaming",
@@ -18,7 +18,7 @@ export const MODULE_ROUTES: Module[] = [
   },
   {
     id: 'transcription',
-    title: "Transcription mono-voix",
+    title: "Mono-voix",
     description: "Convertissez vos fichiers audio volumineux en texte, avec un seul locuteur.",
     icon: [<PersonIcon />, <FileDownloadIcon />],
     path: "transcription",
@@ -27,8 +27,8 @@ export const MODULE_ROUTES: Module[] = [
   },
   {
     id: 'diarization',
-    title: "Transcription réunions",
-    description: "Convertissez vos fichiers audio volumineux en texte, avec plusieurs locuteurs.",
+    title: "Réunions",
+    description: "Convertissez vos enregistrements de réunions en texte, avec identification des locuteurs.",
     icon: [<GroupsIcon />, <FileDownloadIcon />],
     path: "diarization",
     fullPath: "/app/diarization",
